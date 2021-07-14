@@ -185,11 +185,16 @@ details[open] > .browse-summary::after {
   margin-bottom: 16px;
   border-bottom: 1px solid #ededed; }
 
+.buscket-item-item-image {
+  width: 72px; }
+
+.buscket-item-discription {
+  text-align: center; }
+
 .buscket-item-title {
   color: #222222;
   font-size: 14px;
   font-weight: 900;
-  text-align: right;
   text-transform: uppercase; }
 
 .buscket-item-stars {
@@ -202,7 +207,6 @@ details[open] > .browse-summary::after {
   color: #f16d7f;
   font-size: 16px;
   font-weight: 700;
-  text-align: left;
   text-transform: uppercase; }
 
 .buscket-item-delet-img {
@@ -214,7 +218,6 @@ details[open] > .browse-summary::after {
   color: #222222;
   font-size: 16px;
   font-weight: 700;
-  text-align: left;
   text-transform: uppercase;
   margin-bottom: 20px; }
 
@@ -475,6 +478,9 @@ details[open] > .account-summary::after {
 .fetured {
   margin-bottom: 113px; }
 
+.fetured-container {
+  text-align: center; }
+
 .section-title {
   color: #222222;
   font-size: 30px;
@@ -493,19 +499,16 @@ details[open] > .account-summary::after {
 
 .fetured-items {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
-
-.fetured-row {
-  display: flex;
   justify-content: space-between;
-  margin-bottom: 40px; }
+  flex-wrap: wrap; }
 
 .fetured-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px;
+  width: 260px; }
 
 .fetured-item:hover {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16); }
@@ -522,11 +525,14 @@ details[open] > .account-summary::after {
   display: block;
   height: 100%; }
 
+.item-image {
+  width: 260px; }
+
 .fetured-item__link-discription {
+  text-align-last: left;
   padding: 20px 16px; }
 
 .item-title {
-  width: 261px;
   color: #222222;
   font-size: 13px;
   font-weight: 700;
@@ -570,10 +576,7 @@ details[open] > .account-summary::after {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.4px;
-  border: none;
-  display: flex;
-  align-items: center;
-  align-self: center; }
+  border: none; }
 
 .all-product__row {
   width: 15px;
